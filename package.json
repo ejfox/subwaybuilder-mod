@@ -1,0 +1,23 @@
+{
+    "name": "subwaybuilder-mod",
+    "version": "1.0.0",
+    "description": "Template for creating Subway Builder mods",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node scripts/serve-data.js",
+        "serve:custom": "node scripts/serve-data.js --dir"
+    },
+    "keywords": [
+        "subway-builder",
+        "mod",
+        "template",
+        "transit",
+        "simulation"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}

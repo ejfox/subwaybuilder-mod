@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# City data (you might want to keep these)
+# Uncomment to ignore your local city data
+# data/*.json
+# !data/*.example.json

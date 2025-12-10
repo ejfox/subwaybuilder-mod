@@ -1,0 +1,71 @@
+{
+    "points": [
+        {
+            "id": "dp_001",
+            "location": [-73.5673, 45.5017],
+            "jobs": 5000,
+            "residents": 200,
+            "popIds": ["pop_001", "pop_002"]
+        },
+        {
+            "id": "dp_002",
+            "location": [-73.5547, 45.5087],
+            "jobs": 100,
+            "residents": 3000,
+            "popIds": ["pop_001"]
+        },
+        {
+            "id": "dp_003",
+            "location": [-73.5789, 45.4950],
+            "jobs": 2000,
+            "residents": 1500,
+            "popIds": ["pop_002", "pop_003"]
+        },
+        {
+            "id": "dp_004",
+            "location": [-73.5400, 45.5200],
+            "jobs": 500,
+            "residents": 4000,
+            "popIds": ["pop_003"]
+        }
+    ],
+    "pops": [
+        {
+            "id": "pop_001",
+            "size": 500,
+            "residenceId": "dp_002",
+            "jobId": "dp_001",
+            "drivingSeconds": 900,
+            "drivingDistance": 5000,
+            "drivingPath": [
+                [-73.5547, 45.5087],
+                [-73.5560, 45.5070],
+                [-73.5600, 45.5050],
+                [-73.5650, 45.5030],
+                [-73.5673, 45.5017]
+            ]
+        },
+        {
+            "id": "pop_002",
+            "size": 300,
+            "residenceId": "dp_003",
+            "jobId": "dp_001",
+            "drivingSeconds": 1200,
+            "drivingDistance": 7500,
+            "drivingPath": [
+                [-73.5789, 45.4950],
+                [-73.5750, 45.4970],
+                [-73.5700, 45.4990],
+                [-73.5673, 45.5017]
+            ]
+        },
+        {
+            "id": "pop_003",
+            "size": 200,
+            "residenceId": "dp_004",
+            "jobId": "dp_003",
+            "drivingSeconds": 1500,
+            "drivingDistance": 9000
+        }
+    ]
+}

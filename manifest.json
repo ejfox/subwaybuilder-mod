@@ -1,0 +1,22 @@
+{
+    "id": "com.yourname.my-mod",
+    "name": "My Awesome Mod",
+    "description": "A template mod for Subway Builder",
+    "version": "1.0.0",
+    "author": {
+        "name": "Your Name",
+        "url": "https://github.com/yourusername"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/subwaybuilder-mod"
+    },
+    "keywords": [
+        "subway-builder",
+        "mod",
+        "transit"
+    ],
+    "subwayBuilderVersion": ">=1.0.0"
+}

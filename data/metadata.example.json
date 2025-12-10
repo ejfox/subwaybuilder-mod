@@ -1,0 +1,29 @@
+{
+    "cityCode": "MTL",
+    "cityName": "Montreal",
+    "country": "Canada",
+    "region": "Quebec",
+    "timezone": "America/Toronto",
+    "population": 4300000,
+    "area_km2": 431.5,
+    "founded": 1642,
+    "currency": "CAD",
+    "language": "French",
+    "bounds": {
+        "north": 45.7,
+        "south": 45.4,
+        "east": -73.4,
+        "west": -73.9
+    },
+    "center": {
+        "latitude": 45.5017,
+        "longitude": -73.5673
+    },
+    "existingTransit": {
+        "metroLines": 4,
+        "metroStations": 68,
+        "busRoutes": 220,
+        "commuterRailLines": 6
+    },
+    "notes": "This is an example metadata file. Replace with your city's actual data."
+}

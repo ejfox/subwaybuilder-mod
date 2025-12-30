@@ -1,21 +1,21 @@
 # Subway Builder Mod Template
 
-A boilerplate for creating mods for [Subway Builder](https://subwaybuilder.com).
+A boilerplate for creating mods for [Subway Builder](https://subwaybuilder.io), a subway/metro simulation game.
 
 ## Quick Start
 
 1. **Clone this repo** into your mods folder:
    ```bash
    # macOS
-   cd ~/Library/Application\ Support/SubwayBuilder/mods/
+   cd ~/Library/Application\ Support/metro-maker4/mods/
    git clone https://github.com/yourusername/subwaybuilder-mod my-mod
 
    # Windows
-   cd %APPDATA%\SubwayBuilder\mods\
+   cd %APPDATA%\metro-maker4\mods\
    git clone https://github.com/yourusername/subwaybuilder-mod my-mod
 
    # Linux
-   cd ~/.config/SubwayBuilder/mods/
+   cd ~/.config/metro-maker4/mods/
    git clone https://github.com/yourusername/subwaybuilder-mod my-mod
    ```
 
@@ -39,12 +39,12 @@ If you can't find the mods folder:
 1. Open Subway Builder
 2. Go to **Settings > System**
 3. Click **"Open Saves Folder"**
-4. Navigate up one level - you'll see the `SubwayBuilder/` directory
+4. Navigate up one level - you'll see the `metro-maker4/` directory
 5. Create a `mods/` folder if it doesn't exist
 
 **Directory structure:**
 ```
-SubwayBuilder/
+metro-maker4/
 ├── saves/              ← Your save files
 ├── mods/               ← Put your mods here
 │   └── my-mod/         ← Your mod folder
@@ -241,9 +241,18 @@ window.SubwayBuilderAPI.hooks.onMapReady((map) => {
 });
 ```
 
+## Real-World Examples
+
+Check out these working mods for inspiration:
+
+- **[Day/Night Theme Cycle](https://github.com/ejfox/subway-builder-mods/tree/main/day-night-cycle)** - Auto-switches light/dark theme based on in-game time
+- **[Commute Sankey](https://github.com/ejfox/subway-builder-mods/tree/main/commute-sankey)** - Beautiful Sankey diagram showing commuter flow
+- **[Bushwick Express](https://github.com/ejfox/subway-builder-mods/tree/main/bushwick-express)** - Custom NYC career mission with geographic tracking
+- **[Rush Hour Remix](https://github.com/ejfox/subway-builder-mods/tree/main/rush-hour-remix)** - Customize commute windows and weekend demand
+
 ## API Reference
 
-See the [full modding documentation](https://github.com/ejfox/metro-maker4/blob/main/MODDING.md) for complete API reference.
+See the [Subway Builder Modding Guide](https://gist.github.com/ejfox/fcc7dcc4b97d7f6a43800cf384dc694b) for complete API reference.
 
 ## License
 

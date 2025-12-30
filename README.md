@@ -2,6 +2,8 @@
 
 A boilerplate for creating mods for [Subway Builder](https://subwaybuilder.io), a subway/metro simulation game.
 
+> **Just want to install some mods?** Check out [subway-builder-mods](https://github.com/ejfox/subway-builder-mods) for ready-to-use mods you can install right away.
+
 ## Quick Start
 
 1. **Clone this repo** into your mods folder:
@@ -247,6 +249,7 @@ Check out these working mods for inspiration:
 
 - **[Day/Night Theme Cycle](https://github.com/ejfox/subway-builder-mods/tree/main/day-night-cycle)** - Auto-switches light/dark theme based on in-game time
 - **[Commute Sankey](https://github.com/ejfox/subway-builder-mods/tree/main/commute-sankey)** - Beautiful Sankey diagram showing commuter flow
+- **[KML/KMZ Export](https://github.com/ejfox/subway-builder-mods/tree/main/kmz-export)** - Export routes to Google Maps/Earth format
 - **[Bushwick Express](https://github.com/ejfox/subway-builder-mods/tree/main/bushwick-express)** - Custom NYC career mission with geographic tracking
 - **[Rush Hour Remix](https://github.com/ejfox/subway-builder-mods/tree/main/rush-hour-remix)** - Customize commute windows and weekend demand
 
